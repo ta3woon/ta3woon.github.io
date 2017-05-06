@@ -1,0 +1,143 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  text-align: center;
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+a {
+  color: #0084B4;
+}
+
+a:hover {
+  color: #1DA1F2;
+  text-decoration: underline;
+}
+
+.container {
+  width: auto;
+/*  max-width: 680px;*/
+  padding: 0 15px;
+}
+
+.container-fluid.feedBody {
+  padding: 0;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-default {
+    background: white;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.navbar-brand {
+    border-bottom: 4px solid #1DA1F2;
+}
+.navbar-brand:hover {
+    border-bottom: 4px solid #0084B4;
+}
+
+
+.jumbotron {
+  margin-bottom: 0;
+  /* background: #1DA1F2; */
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  color: white;
+}
+
+
+.tweetDiv {
+    padding: 10px 0;
+}
+
+.tweet_user {
+    font-weight: bold;
+    color: #000;
+    float: left;
+}
+
+.tweetStyle {
+    font-weight: normal;
+    text-align: left;
+    padding: 15px 15px;
+    width: 100%;
+    min-height: 80px;
+    border-bottom: 1px solid #ececec;
+
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background: #e2e2e2;
+    border-radius: 5px;
+    float: left;
+}
+
+.tweetAvatar {
+    width: 50px;
+}
+
+.tweetBlock {
+    float: left;
+    width: calc(100% - 60px);
+    padding-left: 10px;
+}
+
+.tweetText {
+  clear: both;
+  float: left;
+  padding-top: 5px;
+}
+
+.tweetContent {
+    width: 100%;
+}
+
+.tweetAvatar {
+    width: 50px;
+}
+
+.date {
+    padding-left: 1px;
+    color: #657786;
+    font-size: 12px;
+}
+
+.updateTweet {
+  height: 60px;
+  background-color: #E8F5FD;
+}
+
+.tweetForm {padding: 10px;}
+
+/*.tweetButton {
+}*/
+
+.btn-info {
+  background-color: #0084B4;
+  background: #1DA1F2;
+}
