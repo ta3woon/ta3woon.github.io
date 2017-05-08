@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 
 
@@ -28,7 +29,6 @@
           <a class="navbar-brand" href="#">Twittler</a>
         </div>
         </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
     </nav>
 
     <div class="jumbotron">
@@ -48,15 +48,34 @@
       <div class="tweetTextField">
         <form></form>
         <div class="tweetButton">
-          <button type="button" class="btn btn-info">View new tweets</button>
+          <button type="button" class="btn btn-info generateBtn">Load tweets</button>
         </div>
+<!-- 
+        <div class="tweetButton">
+          <button type="button" class="btn btn-info newTweetBtn">Write New tweet</button>
+        </div>
+-->
       </div>
     </div>
   </div>
 
     <div class="container-fluid feedBody">
-      <script src="twittles.js"></script>
+<!--     	<div id="template" class="tweetStyle">
+		    <div class='tweetContent'> 
+			    <div class='tweetAvatar'> 
+				    <div class='avatar'></div>
+				</div>
+			    <div class='tweetBlock'>
+					<span class='tweet_user'><a class='userLink'>@templateUser:</a></span>
+					<span class='date'>a few moment template ago</span>
+					<span class='date mini'>  Exact time template</span>
+					<span class='tweetText'>template tweet message template generated #cats template tweet message template generated #cats</span>
+			    </div>
+			</div>    
+	    </div> -->
     </div>
+
+    <script src="twittles.js"></script>
 
     <div class="footer">
       <div class="container">
